@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #1a1a1a, #000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.poster{
+    color: white;
+    text-align: center;
+    width: 380px;
+    height: 600px;
+    background: linear-gradient(180deg, #0b0b0b, #1c1c1c);
+    padding: 30px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.8);
+    overflow: hidden;
+}
+
+.poster::before{
+    background: radial-gradient(circle at center, rgba(255,200,120,0.15), transparent 60%);
+    position: absolute;
+    inset: 0;
+}
+
+.top{
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: rgba(184, 135, 11, 0.781);
+    margin-bottom: 5px;
+}
+
+.title{
+    font-size: 40px;
+    color: rgba(232, 169, 10, 0.781);
+    margin-top: 5px;
+}
+
+.subtitle{
+    color: rgba(232, 169, 10, 0.781);
+    font-size: 20px;
+}
+
+.logo{
+    filter: drop-shadow(0 0 12px rgba(255,200,120,0.6));
+    margin: 40px auto 30px;
+}
+
+.info{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.info b {
+  font-size: 20px;
+  color: rgb(255, 207, 117);
+}
+
+.bottom{
+    color: rgb(161, 161, 161);
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    position: absolute;
+    bottom: 22px;
+    left: 0;
+    width: 100%;
+}
