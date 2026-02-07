@@ -12,7 +12,7 @@ A collection of small web development projects built using
 
 | No. | Project Name | Description | Live Demo |
 |----:|-------------|-------------|-----------|
-| 1 | Anokha’26 Event Poster | Modern and responsive event poster for a college fest | 🔗 [View](https://hari2k7.github.io/Mini-Web-Projects/Anokha-26-Poster/) |
+| 1 | Anokha’26 Event Poster | Modern and responsive event poster for a college fest | 🔗 [View](https://hari2k7.github.io/Mini-Web-Projects/Anokha’26–style%20event%20poster/) |
 | 2 | Calculator | Simple calculator using HTML, CSS & JS | 🔗 [View](https://hari2k7.github.io/Mini-Web-Projects/Calculator/) |
 
 
