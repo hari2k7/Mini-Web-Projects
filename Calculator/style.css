@@ -1,0 +1,69 @@
+body{
+    background-color: darkkhaki;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(96, 96, 96);
+    border-radius: 10px;
+    padding: 10px;
+   
+    
+}
+.big{
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.small{
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+button{
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.Key{
+    background-color: darkgray;
+    width: 50px;
+    height: 50px;
+    padding: 15px 15px 15px 15px;
+    font-size: 1.5rem;
+    border-radius: 25%;
+}
+
+.Screen{
+    background-color: whitesmoke;
+    height: 100px;
+    width: 15rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.Keys{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+
+#ac{
+    grid-column: span 3;
+}
+
+#clear{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
