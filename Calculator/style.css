@@ -1,15 +1,21 @@
 body{
-    background-color: darkkhaki;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container{
-    background-color: rgb(96, 96, 96);
-    border-radius: 10px;
-    padding: 10px;
-   
+    background-color: black;
+    border-radius: 26px;
+    border: solid 5px white;
+    display: flex;
+    flex-direction: column;
     
 }
 .big{
@@ -18,6 +24,8 @@ body{
     justify-content: flex-end;
     border-radius: 10px;
     margin-right: 5px;
+    color: blue;
+    font-family: Arial;
 }
 
 .small{
@@ -25,27 +33,54 @@ body{
     justify-content: flex-end;
     border-radius: 10px;
     margin-right: 5px;
+    color: blue;
+    margin-top: 15px;
+    font-family: Arial;
 }
 button{
     background-color: darkgray;
     cursor: pointer;
 }
 
-.Key{
-    background-color: darkgray;
-    width: 50px;
-    height: 50px;
-    padding: 15px 15px 15px 15px;
-    font-size: 1.5rem;
+.Key {
+    background: #e0e0e0;
+    border: none;
+    width: 54px;
+    height: 54px;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
     border-radius: 25%;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow:
+        4px 4px 10px rgba(0, 0, 0, 0.15),
+        -4px -4px 10px rgba(255, 255, 255, 0.9);
+
+    transition: box-shadow 0.15s ease, transform 0.1s ease;
+}
+
+.Key:active {
+    box-shadow:
+        inset 3px 3px 7px rgba(0, 0, 0, 0.15),
+        inset -3px -3px 7px rgba(255, 255, 255, 0.9);
+    transform: scale(0.96);
 }
 
 .Screen{
-    background-color: whitesmoke;
+    background-color: black;
     height: 100px;
     width: 15rem;
     margin-bottom: 20px;
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 10px;
 }
 
 
@@ -53,8 +88,10 @@ button{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    
+    gap: 20px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 15px;
 }
 
 #ac{
