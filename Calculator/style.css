@@ -1,17 +1,22 @@
 body{
-    background-color: black;
+    background-color: #1b0836;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-h1{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+h1 {
+      color: #a8c8f8;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      opacity: 0.7;
 }
 .container{
-    background-color: black;
+    background-color: #b8d8ff;
     border-radius: 26px;
     border: solid 5px white;
     display: flex;
@@ -23,19 +28,29 @@ h1{
     display: flex;
     justify-content: flex-end;
     border-radius: 10px;
-    margin-right: 5px;
-    color: blue;
-    font-family: Arial;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #0a1e3d;
+    font-family: 'DM Mono', monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
 }
 
 .small{
     display: flex;
     justify-content: flex-end;
     border-radius: 10px;
-    margin-right: 5px;
-    color: blue;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #0a1e3d;
     margin-top: 15px;
-    font-family: Arial;
+    font-family: 'DM Mono', monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    font-size: 13px;
+    opacity: 0.7;
 }
 button{
     background-color: darkgray;
@@ -43,7 +58,7 @@ button{
 }
 
 .Key {
-    background: #e0e0e0;
+    background: #f7f7f7;
     border: none;
     width: 54px;
     height: 54px;
@@ -58,21 +73,21 @@ button{
     justify-content: center;
 
     box-shadow:
-        4px 4px 10px rgba(0, 0, 0, 0.15),
-        -4px -4px 10px rgba(255, 255, 255, 0.9);
+        3px 3px 8px rgba(100, 140, 200, 0.25),
+        -3px -3px 8px rgba(255, 255, 255, 0.95);
 
     transition: box-shadow 0.15s ease, transform 0.1s ease;
 }
 
 .Key:active {
     box-shadow:
-        inset 3px 3px 7px rgba(0, 0, 0, 0.15),
+        inset 3px 3px 7px rgba(100, 140, 200, 0.3),
         inset -3px -3px 7px rgba(255, 255, 255, 0.9);
     transform: scale(0.96);
 }
 
 .Screen{
-    background-color: black;
+    background-color: #b8d8ff;
     height: 100px;
     width: 15rem;
     margin-bottom: 20px;
@@ -81,6 +96,10 @@ button{
     justify-content: center;
     margin-left: 25px;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
 }
 
 
@@ -104,3 +123,21 @@ button{
     border-radius: 10px;
 }
 
+.eq{
+    background-color: #2c7edd;
+    color: #ffffff !important;
+    box-shadow:
+        3px 3px 8px rgba(10, 60, 150, 0.4),
+        -3px -3px 8px rgba(100, 160, 255, 0.25);
+}
+
+#eq:active {
+    box-shadow:
+        inset 3px 3px 7px rgba(10, 50, 130, 0.5),
+        inset -3px -3px 7px rgba(120, 180, 255, 0.3);
+    transform: scale(0.96);
+}
+
+.opk{
+    color: blue;
+}
