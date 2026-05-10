@@ -46,7 +46,6 @@ function App() {
 
       <div className="w-full max-w-lg backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl shadow-2xl p-8">
 
-        {/* Heading */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-extrabold text-white tracking-wide">
             Password Generator
@@ -57,7 +56,6 @@ function App() {
           </p>
         </div>
 
-        {/* Password Input */}
         <div className="relative mb-6">
           <input
             type="text"
@@ -76,17 +74,14 @@ function App() {
           </button>
         </div>
 
-        {/* Copied Message */}
         {copied && (
           <p className="text-green-400 text-center text-sm mb-4 animate-pulse">
             Password copied successfully ✓
           </p>
         )}
 
-        {/* Controls */}
         <div className="space-y-6">
 
-          {/* Slider */}
           <div>
             <div className="flex justify-between items-center mb-2">
               <label className="text-white font-medium">
@@ -108,10 +103,8 @@ function App() {
             />
           </div>
 
-          {/* Options */}
           <div className="grid grid-cols-2 gap-4">
 
-            {/* Numbers */}
             <div className="flex items-center justify-between bg-white/5 border border-white/10 px-4 py-4 rounded-2xl hover:bg-white/10 transition-all duration-300">
               <label htmlFor="number" className="text-white cursor-pointer">
                 Numbers
@@ -148,7 +141,6 @@ function App() {
           </div>
         </div>
 
-        {/* Footer */}
         <div className="mt-8 text-center text-xs text-gray-500">
           Built with React + Tailwind CSS
         </div>
