@@ -121,7 +121,6 @@ function App() {
               />
             </div>
 
-            {/* Characters */}
             <div className="flex items-center justify-between bg-white/5 border border-white/10 px-4 py-4 rounded-2xl hover:bg-white/10 transition-all duration-300">
               <label htmlFor="charInput" className="text-white cursor-pointer">
                 Characters
